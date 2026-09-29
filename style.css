@@ -1,13 +1,10 @@
 /* Your shop's styles. Week 1: make it yours! */
 body {
-  font-family: Vazirmatn, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
   margin: 0;
-  padding: 1rem;
-  line-height: 1.8;
-  background: #f7faf5;
-  color: #1f2a1c;
-}
-
-h1 {
-  color: #2e7d32;
+  padding: 0;
 }
